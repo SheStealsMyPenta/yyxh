@@ -14,6 +14,7 @@ import NewPortfolio from './components/NewPortfolio'
 import NewPastPortfolio from './components/NewPastPortfolio'
 import Cooperation from './components/Cooperation'
 import Timeline from './components/Timeline'
+import MyForm from "./components/form"
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
       <div className="App">
         <Header webData={webData}/>
         <Mission webData={webData}/>
+        <MyForm></MyForm>
         {/* <Portfolio webData={webData}/>
         <PastPortfolio webData={webData}/> */}
         <NewPortfolio webData={webData}/>

@@ -7,7 +7,7 @@ export default  class Mission extends Component {
       <section id="mission">
          <div className="row">
             <div className="twelve columns">
-            <iframe id="goldendata_form_mm5jzi" src="https://jinshuju.net/f/mm5jzi?background=white&banner=hide&embedded=true" style={{width:"100%" ,frameborder:0, allowTransparency:"true", height:"1639"}}></iframe>
+         
               { 
                 webData.mission && webData.mission.map((item)=>{
                   return(
